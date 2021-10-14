@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_journal_banners",
+  "info": {
+    "name": "global_journal_banner"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

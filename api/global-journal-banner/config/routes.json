@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/global-journal-banner",
+      "handler": "global-journal-banner.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/global-journal-banner",
+      "handler": "global-journal-banner.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/global-journal-banner",
+      "handler": "global-journal-banner.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
